@@ -61,6 +61,7 @@ h3 {
         margin-top: 0;
         margin-bottom: 5px;
         text-transform: capitalize;
+        text-align: justify;
     }
 
     h3.headline {
@@ -71,8 +72,8 @@ h3 {
 
     .container-fluid {
         width: 100%;
-        padding-right: 25px;
-        padding-left: 25px;
+        padding-right: 0px;
+        padding-left: 0px;
         margin-right: auto;
         margin-left: auto;
         margin-top: 20px;
@@ -102,9 +103,13 @@ h3 {
     .pokemon {
         border-radius: 20px;
         /* box-shadow: 0 3px 15px rgb(100 100 100 / 50%); */
-        margin: 10px;
-        padding: 21px 14px 13px 50px;
+        margin: 12px 14px -57px 8px;
+        padding: 16px 11px 0px 11px;
         /* text-align: center; */
+    }
+
+    .pokemon-image {
+        padding: 10px 20px 11px 75px;
     }
 }
 
@@ -136,9 +141,13 @@ h3 {
     .pokemon {
         border-radius: 20px;
         /* box-shadow: 0 3px 15px rgb(100 100 100 / 50%); */
-        margin: 10px;
+        margin: 0px 0px -30px 36px;
         padding: 21px 14px 13px 80px;
         /* text-align: center; */
+    }
+
+    .pokemon-image {
+        padding: 0px 0px 0px 0px;
     }
 }
 
