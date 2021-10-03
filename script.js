@@ -62,7 +62,7 @@ for (var i = 0; i < pokemon.length; i++)
     
       <div class="col-md-12">
         <div class="container">
-        <p><b>Id</b>:<span>${pokemon[i].name}</span></p>
+      
           <p><b>Name</b>:<span>${pokemon[i].name}</span></p>
           <p><b>Moves</b>:<span>
 
