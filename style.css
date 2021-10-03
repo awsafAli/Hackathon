@@ -1,5 +1,13 @@
 body {
     background: hsl(0, 0%, 98%);
+    
+}
+.img-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
 }
 
 img {
@@ -13,17 +21,19 @@ img {
 }
 
 .inner {
-    background-color: hsl(0, 0%, 100%);
-    -webkit-box-shadow: 0 2px 28px 0 rgb(0 0 0 / 9%);
-    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 9%);
-    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(248, 213, 163);
+   
+  
+    border-radius: 25px;
 }
 p {
     margin-top: 0;
     text-transform: capitalize;
     margin-bottom: 8px;
 }
-
+span {
+    text-transform: capitalize;
+}
 .h3,
 h3 {
     font-size: 20px;
@@ -33,9 +43,9 @@ h3 {
 
 @media only screen and (min-width: 360px) {
     .inner {
-        background-color: #ffffff;
-        -webkit-box-shadow: 0 2px 28px 0 rgb(0 0 0 / 9%);
-        box-shadow: 0 2px 28px 0 rgb(0 0 0 / 9%);
+        border-radius: 25px;
+       
+        box-shadow: 0 3px 15px rgb(100 100 100 / 50%);
         margin: 18px 18px 18px 18px;
     }
     .row {
@@ -88,6 +98,14 @@ h3 {
         font-weight: 700;
         text-transform: capitalize;
     }
+
+    .pokemon {
+        border-radius: 20px;
+        /* box-shadow: 0 3px 15px rgb(100 100 100 / 50%); */
+        margin: 10px;
+        padding: 21px 14px 13px 50px;
+        /* text-align: center; */
+    }
 }
 
 @media (min-width: 768px) {
@@ -115,14 +133,39 @@ h3 {
         margin-left: -15px;
         margin-bottom: 40px;
     }
+    .pokemon {
+        border-radius: 20px;
+        /* box-shadow: 0 3px 15px rgb(100 100 100 / 50%); */
+        margin: 10px;
+        padding: 21px 14px 13px 80px;
+        /* text-align: center; */
+    }
 }
 
+@media (min-width: 1024px) {
+    .pokemon {
+        border-radius: 20px;
+        /* box-shadow: 0 3px 15px rgb(100 100 100 / 50%); */
+        margin: 10px;
+        padding: 21px 14px 13px 35px;
+        /* text-align: center; */
+    }
+
+}
 @media (min-width: 1200px) {
     h3 {
         font-size: 17px;
         font-weight: 700;
         text-transform: capitalize;
     }
+    .pokemon {
+        border-radius: 20px;
+        /* box-shadow: 0 3px 15px rgb(100 100 100 / 50%); */
+        margin: 10px;
+        padding: 21px 14px 13px 50px;
+        /* text-align: center; */
+    }
+    
 }
 @media (min-width: 1300px) {
     img {
@@ -152,6 +195,14 @@ h3 {
         margin-left: auto;
         margin-top: 20px;
         margin-bottom: 25px;
+    }
+
+    .pokemon {
+        border-radius: 20px;
+        /* box-shadow: 0 3px 15px rgb(100 100 100 / 50%); */
+        margin: 10px;
+        padding: 21px 14px 13px 50px;
+        /* text-align: center; */
     }
 }
 .democlass {

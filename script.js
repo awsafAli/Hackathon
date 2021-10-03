@@ -53,17 +53,24 @@ for (var i = 0; i < pokemon.length; i++)
   <div class="col-sm-3 col-md-6 col-lg-3 col-xl-3 col-xs-12">
   <div class="inner">
     <div class="row">
-      <div class="col-md-12">
-      <img src="${pokemon[i].image}" class="imgtag">
+      <div class="col-md-12 pokemon">
+          
+          <div class="img-container">
+          <img src="${pokemon[i].image}" class="imgtag">
+        </div>
       </div>
     
       <div class="col-md-12">
         <div class="container">
-       
-          <p><b>Name</b>:${pokemon[i].name}</p>
-          <p><b>Moves</b>:${pokemon[i].moves[0].move.name}</p>
-          <p><b>Abilities</b>:${pokemon[i].abilities[0].ability.name}</p>
-          <p><b>Weight</b>:${pokemon[i].weight}</p>
+        <p><b>Id</b>:<span>${pokemon[i].name}</span></p>
+          <p><b>Name</b>:<span>${pokemon[i].name}</span></p>
+          <p><b>Moves</b>:<span>
+
+                             ${pokemon[i].moves[0].move.name} 
+                             </span>
+                          </p>
+          <p><b>Abilities</b>: <span>${pokemon[i].abilities[0].ability.name} </span></p>
+          <p><b>Weight</b>: <span>${pokemon[i].weight} </span></p>
         </div>
       </div>
     </div>
